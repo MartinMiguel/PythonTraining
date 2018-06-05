@@ -44,15 +44,11 @@ print("Append, Stack: ",list2)
 
 #Powerful functions
 #1.-filter()
-alphabets = ['a', 'b', 'd', 'e', 'i', 'j', 'o']
+def f(x): return x % 3 == 0 or x % 5 == 0
+a=filter(f, range(2, 25))
+print("List result for filter:",*a)
 def filterVowels(alphabet):
-    vowels = ['a', 'e', 'i', 'o', 'u']
-    if(alphabet in vowels):
-        print("alphated,vowels", alphabet, vowels)
-        return True
-    else:
-        return False
-filteredVowels = filter(filterVowels, alphabets)
-print('The filtered vowels are:')
-for vowel in filteredVowels:
-    print(vowel)
+    vowels = ['a', 'e', 'i', 'o', 'u','l']
+    return alphabet in vowels
+filteredVowels = filter(filterVowels, ['a', 'b', 'd', 'e', 'i', 'j', 'o'])
+print('The filtered vowels are:', *filteredVowels)
