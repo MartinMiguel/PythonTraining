@@ -58,3 +58,16 @@ filteredVowels = filter(filterVowels, alphabets)
 print('The filtered vowels are:')
 for vowel in filteredVowels:
     print(vowel)
+
+#Extra
+S= 'shrubbery'
+L = list(S) # Expand to a list: [...]
+print(L)
+print(type(L))
+
+L = [123, 'spam', 1.23]
+print(len(L))
+print(L[:-1])
+print(L.pop(2))
+print(L)
+M = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]

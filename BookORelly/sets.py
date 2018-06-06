@@ -2,6 +2,9 @@
 #be looked by index
 #it's faster than list and tuples
 
+# sets because items are stored only once in a set, sets can be used to filter duplicates out of other collections
+# can convert to sets and play with math and logical operations.
+
 #unordered collection with no duplicate elements
 #sets can be used to perform mathematical operations as union, intersection ...
 #create a set by using function set or using curly braces {}
@@ -37,3 +40,15 @@ print("B intersection A:",B.intersection(A))
 #4.-Sort descendent
 pySet = {'e', 'a', 'u', 'o', 'i'}
 print(sorted(pySet, reverse=True))
+
+#Others..
+A= set([1, 2, 3, 4])
+print(A)
+S = set() # Initialize an empty set
+S.add(1.23)
+S.add((1, 2, 3))
+print(S)
+L = [1, 2, 1, 3, 2, 4, 5]
+print(set(L))
+engineers = {'bob', 'sue', 'ann', 'vic'}
+print( 'bob' in engineers )
