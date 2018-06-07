@@ -1,7 +1,14 @@
 #Tuples use parenthesis
-#Cant be changed
+
+#Cant change elemets
+#tup1 = (12, 34.56);
+#tup1[0] = 100;
+#Difference with set is that not even object change is allowed with tuples (update tuples, only taking portions of
+#existing tuples to create new tuples)
+
+#add, remove, pop methods not supported
 #tuples can be sliced, concatenated, ... as operations
-#tuples can contain mutable ogjects
+#tuples can contain mutable objects as lists
 #when tu use tuples: similar tu using structs in C
 #What you are likely to do with a tuple is access the elements individually and do specific
 #things with them. Use a tuple when the positions themselves are the best identifiers you can use for the data
@@ -42,14 +49,18 @@ print("u[0]:", u[0])
 #tuples containing mutable objects list
 list1_1 = [10,11]
 list2_1 = [12,13]
-tupwlist = (list1_1, list2_1)
+tupwlist = ("Tuple containing lists: ",list1_1, list2_1)
 print("Type:",type(tupwlist))
 print("tuple with lists contained:",tupwlist)
 print("tuple with lists contained:",tupwlist[0])
 #list1_1 is updated but still don't change due to previous assignation
 list1_1 = [20,21]
-tupwlist = (list1_1, list2_1,list1)
-print("tuple with lists contained:",tupwlist)
+tupwlist = (list1_1, list2_1, list1)
+print("tuple with lists contained and updated:",tupwlist)
+del(list1_1)
+print("tuple with lists contained and updated with list del, not affecting:",tupwlist)
+tupwlist = (list2_1, list1)
+print("tuple with lists contained and updated with list redefinition, not affecting:",tupwlist)
 print("Type:",type(tupwlist))
 tupwlist = (list1_1,list2_1)
 print("tuple with lists contained:",tupwlist)

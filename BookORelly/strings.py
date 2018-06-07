@@ -1,14 +1,18 @@
 #inmutable
+#S1 = 'splot'
+#S1[0] = "x"
+#print(S1)
 #Contain text
 #support slicing and methods
+#update" an existing string by (re)assigning a variable to another string.
 
 text = 'The surface of the circle is 2 pi R = '
-text = "The surface of the circle is 2 pi R = "
-text = '''The surface of the circle is 2 pi R = '''
+text1 = "The surface of the circle is 2 pi R = "
+text2 = '''The surface of the circle is 2 pi R = '''
 
 print(text[0])
-print(text[-2])
-print(text[0:])
+print(text1[-2])
+print(text2[0:])
 
 #text[0] = 'a' #this is incorrect.
 
@@ -73,6 +77,12 @@ S = 'spammy'
 
 print(S[:3] + 'xx' + S[5:])
 print(S.replace('mm', 'xx'))
+
+str = "this is string example....wow!!!"
+sub = "t"
+print ("str.count(sub, 4, 40) : ", str.count(sub, 0, 1))
+sub = "example"
+print ("str.count(sub) : ", str.count(sub))
 
 #strings with sets to dictionaries?
 template = '{motto}, {pork} and {food}' # By keyword

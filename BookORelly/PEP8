@@ -1,0 +1,139 @@
+PEP 8 -- Style Guide for Python Code
+
+Indentation
+The 4-space rule is optional for continuation lines.
+if True:
+    print("If works")
+
+    foo = long_function_name(var_one, var_two,
+                             var_three, var_four)
+
+    if (this_is_one_thing
+         and that_is_another_thing):
+    do_something()
+
+    my_list = [
+    1, 2, 3,
+    4, 5, 6,
+    ]
+
+Spaces are the preferred indentation method.Tabs should be used solely to remain consistent with code that is already indented with tabs.
+
+Limit all lines to a maximum of 79 characters.Backslashes may still be appropriate at times
+with open('/path/to/some/file/you/want/to/read') as file_1, \
+     open('/path/to/some/file/being/written', 'w') as file_2:
+    file_2.write(file_1.read())
+
+Math operations
+income = (gross_wages
+          + taxable_interest
+          + (dividends - qualified_dividends)
+          - ira_deduction
+          - student_loan_interest)
+
+Two blank lines between the import statements and other code. Two blank lines between each function.
+Top-level function and classes are separated by two blank lines. Method definitions inside classes should be separated by one blank line.
+import os
+
+
+def func1():
+
+
+def func2():
+Imports
+class SwapTestSuite(unittest.TestCase):
+    """
+        Swap Operation Test Case
+    """
+    def setUp(self):
+        self.a = 1
+        self.b = 2
+
+    def test_swap_operations(self):
+        instance = Swap(self.a,self.b)
+        value1, value2 =instance.get_swap_values()
+        self.assertEqual(self.a, value2)
+        self.assertEqual(self.b, value1)
+
+
+class OddOrEvenTestSuite(unittest.TestCase):
+
+Yes: import os
+     import sys
+
+No:  import sys, os
+Imports should be grouped in the following order:
+Standard library imports.
+Related third party imports.
+Local application/library specific imports.
+
+Module level "dunders" (i.e. names with two leading and two trailing underscores) such as __all__, __author__,
+__version__, etc. should be placed after the module docstring but before any import statements except from __future__ imports.
+"""This is the example module.
+
+This module does stuff.
+"""
+
+from __future__ import barry_as_FLUFL
+
+__all__ = ['a', 'b', 'c']
+__version__ = '0.1'
+__author__ = 'Cardinal Biggles'
+
+import os
+import sys
+
+String Quotes
+In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a
+recommendation for this. Pick a rule and stick to it.
+
+Whitespace in Expressions and Statements
+Yes: spam(ham[1], {eggs: 2})
+No:  spam( ham[ 1 ], { eggs: 2 } )
+Yes:
+ham[1:9], ham[1:9:3], ham[:9:3], ham[1::3], ham[1:9:]
+ham[lower:upper], ham[lower:upper:], ham[lower::step]
+ham[lower+offset : upper+offset]
+No:
+ham[lower + offset:upper + offset]
+ham[1: 9], ham[1 :9], ham[1:9 :3]
+Yes:
+i = i + 1
+submitted += 1
+x = x*2 - 1
+hypot2 = x*x + y*y
+c = (a+b) * (a-b)
+No:
+i=i+1
+submitted +=1
+x = x * 2 - 1
+Yes:
+def munge(sep: AnyStr = None): ...
+def munge(input: AnyStr, sep: AnyStr = None, limit=1000): ...
+No:
+def munge(input: AnyStr=None): ...
+def munge(input: AnyStr, limit = 1000): ...
+
+When to Use Trailing Commas
+Yes:
+FILES = ('setup.cfg',)
+OK, but confusing:
+FILES = 'setup.cfg',
+
+Comments
+x = x + 1                 # Increment x
+
+Documentation Strings
+
+Name conventions
+Class names should normally use the CapWords convention.
+Modules should have short, all-lowercase names. Underscores
+can be used in the module name if it improves readability.
+Function names should be lowercase
+
+Function and Method Arguments
+Always use self for the first argument to instance methods.
+
+Constants
+Constants are usually defined on a module level and written in all
+capital letters with underscores separating words.
