@@ -1,0 +1,15 @@
+coverage run unit_test.py
+coverage report -m
+coverage html
+
+Multiple files:
+$ coverage run -p tests/my_python_tests.py
+$ coverage run -p tests/my_trial_tests.py
+$ coverage combine
+$ coverage html -d tests/coverage_html  --include=./*py --omit='lib/*.py,tests/*.py'
+
+coverage run -p unit_test.py
+coverage run -p unit_test2.py
+coverage combine
+coverage report .-m
+coverage html
