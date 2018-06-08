@@ -1,0 +1,81 @@
+https://es.stackoverflow.com/questions/32165/qu%C3%A9-es-if-name-main
+
+Es común encontrarnos código con esta forma:
+
+def hacer_algo():
+    print "algo"
+
+if __name__ == "__main__":
+    hacer_algo()
+En lugar de, por ejemplo:
+
+def hacer_algo():
+    print "algo"
+
+hacer_algo()
+También notamos que la variable __name__ no es inicializada por nosotros, pero existe en el entorno.
+
+¿Cuál es la diferencia? ¿Por qué preferir uno sobre el otro? ¿Qué es y cómo funciona if __name__ == “__main__”:?
+
+
+Esto está ligado al modo de funcionamiento del intérprete Python, cuando el intérprete lee un archivo de código, ejecuta todo el código que se encuentra en él. Todo módulo (archivo de código) en python tiene un atributo especial llamado __name__ que define el espacio de nombres en el que se está ejecutando. Es usado para identificar de forma única un módulo en el sistema de importaciones.
+
+Por su parte __main__ es el nombre del ámbito en el que se ejecuta el código de nivel superior (tu programa principal).
+
+El intérprete pasa el valor del atributo a '__main__' si el módulo se está ejecutando como programa principal (cuando lo ejecutas llamando al intérptrete en la terminal con python my_modulo.py, haciendo doble click en él, ejecutandolo en el intérprete interactivo, etc ).
+
+Si el módulo no es llamado como programa principal, sino que es importado desde otro módulo, el atributo __name__ pasa a contener el nombre del archivo en si. Aquí tienes la documentación oficial.
+
+Es decir, si tienes un archivo llamado mi_modulo.py, si lo ejecutamos como programa principal el atributo __name__ será '__main__', si lo usamos importandolo desde otro modulo (import mi_modulo) el atributo __name__ será igual a 'mi_modulo'.
+
+Básicamente, lo que haces usando if __name__ == “__main__”: es ver si el módulo ha sido importado o no. Si no se ha importado (se ha ejecutado como programa principal) ejecuta el código dentro del condicional.
+
+Una de las razones para hacerlo es que, a veces, se escribe un módulo (un archivo .py) que se puede ejecutar directamente, pero que alternativamente, también se puede importar y reutilizar sus funciones, clases, métodos, etc en otro módulo. Con esto conseguimos que la ejecución sea diferente al ejecutar el módulo directamente que al importarlo desde otro programa.
+
+Para ver como funciona puedes probar algún código (siguiendo tu propio ejemplo):
+
+Creas un módulo al que llamaremos mi_modulo.py:
+
+def hacer_algo():
+    print("algo")
+
+if __name__ == "__main__":
+    print('Ejecutando como programa principal')
+    hacer_algo()
+En la misma carpeta creas otro módulo al que llamaremos principal.py
+
+import mi_modulo
+
+mi_modulo.hacer_algo()
+Si ejecutas el script mi_modulo.py directamente el valor de __name__ será '__main__' y se ejcutará lo que hay dentro del if __name__ == “__main__”::
+
+Ejecutando como programa principal
+algo
+
+Si ejecutamos el archivo principal.py que usa mi_modulo.py importandolo no se cumple la condición if __name__ == “__main__” por lo que no se ejecuta nada, solo la propia llamada a la función que hacemos desde el programa principal:
+
+algo
+
+Ahora vamos a cambiar el script mi_modulo.py por:
+
+def hacer_algo():
+    print("algo")
+print('Ejecutando como programa principal')
+hacer_algo()
+Si lo ejecutamos como programa princial el resultado es el mismo que antes, pero si ejecutamos ahora principal.py nos sale esto:
+
+Ejecutando como programa principal
+algo
+algo
+
+Lo que pasa es que al importar ejecutamos todo el código y se imprime:
+
+Ejecutando como programa principal
+algo
+
+Luego al llamar a la función nos imprime:
+
+algo
+
+En definitiva, las dos formas que pones son válidas si ejecutas el script siempre como programa principal, si lo usas también importandolo no sueles querer que se ejecute código si no llamas a una función tu mismo y esa es la razón de
+usar  if __name__ == “__main__”:

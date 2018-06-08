@@ -10,6 +10,7 @@
 
 #Keys must be immutable. Which means you can use strings, numbers or tuples as dictionary keys but something like
 #['key'] is not allowed. *key specified as key is not allowed
+#Values pointed from keys can change and be pointing to alists
 
 #Methods: clear, del, comp, len, type
 
@@ -32,7 +33,10 @@ dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 print ("dict['Name']: ", dict['Name'])
 
 #Updated a key
-dict['Age'] = 8;
+dict['Age'] = 8
+
+#Save a key value as list
+dict['Age'] = [8]
 
 #Added a new key with value
 dict['School'] = "DPS School"; # Add new entry

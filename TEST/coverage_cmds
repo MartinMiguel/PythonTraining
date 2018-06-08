@@ -13,3 +13,36 @@ coverage run -p unit_test2.py
 coverage combine
 coverage report .-m
 coverage html
+
+https://stackoverflow.com/questions/36517137/how-to-properly-use-coverage-py-in-python
+
+Using py test
+
+Coverage looks for a .coverage file to read and generate that report for you. Py.test on its own does not create one. You need py.test plugin for coverage:
+
+pip install pytest-cov
+If you already have it, then you can run both at once like this:
+
+py.test test.py --cov=sample.py
+Which means run test module test.py and record/display coverage report on sample.py.
+
+If you need to have multiple test runs and accumulate their recorded coverage and then display a final report, you can run it like this:
+
+py.test test.py --cov=sample.py --cov-report=
+py.test test.py --cov=sample2.py --cov-report=
+py.test test.py --cov=sample3.py --cov-report=
+Which means run test module test.py and record (only) coverage on sample.py - don't display a report.
+
+Now you can run coverage command separately for a complete report:
+
+coverage report -m
+The command above simply displays a formatted coverage report based on the accumulated .coverage data file from previous test runs. -m means show lines missed i.e. lines not covered by tests:
+
+Name        Stmts   Miss  Cover   Missing
+-----------------------------------------
+sample.py       6      0   100%
+
+
+Run all tests
+py.test --cov
+py.test --cov --cov-report html

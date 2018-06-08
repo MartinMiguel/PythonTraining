@@ -1,4 +1,4 @@
-#Tuples use parenthesis
+#Tuples use parenthesis can be declared using tuple
 
 #Cant change elemets
 #tup1 = (12, 34.56);

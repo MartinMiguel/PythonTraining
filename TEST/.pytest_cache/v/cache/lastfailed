@@ -1,0 +1,8 @@
+{
+  "example_pytest.py::test_answer": true,
+  "test.py::test_sum_positive_ok": true,
+  "test_basic.py::test_answer": true,
+  "test_sample.py::test_sum_positive_ok": true,
+  "test_unit.py::MyTest::test2": true,
+  "unit_test.py::MyTest::test2": true
+}

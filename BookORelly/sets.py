@@ -1,16 +1,19 @@
 #Sets:
 #-Unordered with no duplicate elements
-#-Declared with curly braces
+#-Declared with curly braces or set keyword
 #-Since can't be look by index you can't modify a set element
 #-Contents are mutable through operations as add, pop, remove.
 #-Can't support operations with lists, only tuples
 #-Used for mathematical operations
 
 #Tuples:
-#-Declared using parentheses
+#-Can have duplicate elements
+#-Declared using parentheses or tuple keyword
 #-Inmuttable, can't change elements and contents
 #-Can look by index and slicing
 #-tuples can contain mutable objects as lists
+#Difference with set is that not even object change is allowed with tuples (update tuples, only taking portions of
+#existing tuples to create new tuples)
 #*********************************************
 #The set type is mutable -- the contents can be changed using methods like add() and remove().
 #Since it is mutable, cannot be used as either a dictionary key or as an element of another set.
