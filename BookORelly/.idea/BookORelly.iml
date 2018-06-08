@@ -5,6 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="IntegrationTests" />
+    <orderEntry type="module" module-name="OOP" />
+    <orderEntry type="module" module-name="TEST" />
   </component>
   <component name="PackageRequirementsSettings">
     <option name="requirementsPath" value="" />
