@@ -1,16 +1,7 @@
+#pyunit framework
+
 import unittest
-
-def fun(x):
-    Y=8
-    print("Y output:",Y)
-    return x + 1
-
-def capital_case(x):
-    Z=8
-    print("Z output:", Z)
-    return x.capitalize()
-
-
+from sample_pyunit1 import fun, capital_case
 
 class MyTest(unittest.TestCase):
     def test1(self):

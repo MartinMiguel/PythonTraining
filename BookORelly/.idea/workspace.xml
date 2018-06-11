@@ -15,101 +15,105 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data_hiding.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../OOP/data_hiding.py">
+      <file leaf-file-name="test_pyunit2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/test_pyunit2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="e#19#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_pytest3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/sample_pytest3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coverage_cmds" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../TEST/coverage_cmds">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_pytest3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/test_pytest3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assignations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionaries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dictionaries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DifferencesPython23.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DifferencesPython23.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_execution" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_execution">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tuples.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tuples.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sets.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sets.py">
+      <file leaf-file-name="test_pytest1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/test_pytest1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding />
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding>
+                <element signature="e#204#219#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overloading.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../OOP/overloading.py">
+      <file leaf-file-name="sample_pytest1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/sample_pytest1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="136">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overriding.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../OOP/overriding.py">
+      <file leaf-file-name="sample_pytest2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/sample_pytest2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_pytest2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/test_pytest2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_pyunit2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/sample_pyunit2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../OOP/static.py">
+      <file leaf-file-name="sample_pyunit1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TEST/sample_pyunit1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,17 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/constructor.py" />
-        <option value="$PROJECT_DIR$/ForCycles.py" />
-        <option value="$PROJECT_DIR$/Print.py" />
-        <option value="$PROJECT_DIR$/lists" />
-        <option value="$PROJECT_DIR$/unit_test.py" />
-        <option value="$PROJECT_DIR$/../IntegrationTests/wallet.py" />
-        <option value="$PROJECT_DIR$/../IntegrationTests/test_capitalize.py" />
-        <option value="$PROJECT_DIR$/../IntegrationTests/test_wallet.py" />
-        <option value="$PROJECT_DIR$/IfCycle" />
-        <option value="$PROJECT_DIR$/ForCycle.py" />
-        <option value="$PROJECT_DIR$/Recursion.py" />
         <option value="$PROJECT_DIR$/python_functions" />
         <option value="$PROJECT_DIR$/../IntegrationTests/mymodule.py" />
         <option value="$PROJECT_DIR$/../IntegrationTests/frommymodule.py" />
@@ -170,23 +163,34 @@
         <option value="$PROJECT_DIR$/../TEST/sample.py" />
         <option value="$PROJECT_DIR$/../TEST/example_pytest.py" />
         <option value="$PROJECT_DIR$/../TEST/test.py" />
-        <option value="$PROJECT_DIR$/../TEST/test_unit.py" />
         <option value="$PROJECT_DIR$/../TEST/test_sample.py" />
         <option value="$PROJECT_DIR$/../TEST/test_basic.py" />
-        <option value="$PROJECT_DIR$/../TEST/coverage_cmds" />
         <option value="$PROJECT_DIR$/../OOP/overloading.py" />
         <option value="$PROJECT_DIR$/dictionaries.py" />
         <option value="$PROJECT_DIR$/../OOP/classes.py" />
         <option value="$PROJECT_DIR$/tuples.py" />
         <option value="$PROJECT_DIR$/sets.py" />
+        <option value="$PROJECT_DIR$/../TEST/test_unit.py" />
+        <option value="$PROJECT_DIR$/../TEST/sample_pyunit1.py" />
+        <option value="$PROJECT_DIR$/../TEST/test_pyunit.py" />
+        <option value="$PROJECT_DIR$/../TEST/sample_pyunit2.py" />
+        <option value="$PROJECT_DIR$/../TEST/test_pyunit1.py" />
+        <option value="$PROJECT_DIR$/../TEST/test_pyunit2.py" />
+        <option value="$PROJECT_DIR$/../TEST/sample_pytest2.py" />
+        <option value="$PROJECT_DIR$/../TEST/test_pytest2.py" />
+        <option value="$PROJECT_DIR$/../TEST/test_pytest1.py" />
+        <option value="$PROJECT_DIR$/../TEST/sample_pytest1.py" />
+        <option value="$PROJECT_DIR$/../TEST/test_pytest3.py" />
+        <option value="$PROJECT_DIR$/../TEST/sample_pytest3.py" />
+        <option value="$PROJECT_DIR$/../TEST/coverage_cmds" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="174" />
-    <option name="y" value="58" />
+    <option name="x" value="452" />
+    <option name="y" value="35" />
     <option name="width" value="1475" />
-    <option name="height" value="987" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -260,6 +264,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="IntegrationTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookORelly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="BookORelly" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -292,8 +306,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.inheritance">
-    <configuration default="false" name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_pytest1.py">
+    <configuration default="false" name="sample_pyunit1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TEST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TEST" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../TEST/sample_pyunit1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_pyunit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -304,80 +336,53 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BookORelly" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../TEST/test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../TEST/test_pyunit.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="overloading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in test_pyunit2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OOP" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OOP/overloading.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TEST" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BookORelly" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaries.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../TEST/test_pyunit2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="python_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in test_pytest2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TEST" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BookORelly" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../TEST/test_pytest2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in test_pytest1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OOP" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TEST" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OOP" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OOP/inheritance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <module name="BookORelly" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../TEST/test_pytest1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -461,19 +466,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.overloading" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dictionaries" />
-      <item index="3" class="java.lang.String" itemvalue="Python.python_functions" />
-      <item index="4" class="java.lang.String" itemvalue="Python.inheritance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sample_pyunit1" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_pyunit.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_pyunit2.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_pytest2.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_pytest1.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.inheritance" />
-        <item index="1" class="java.lang.String" itemvalue="Python.python_functions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dictionaries" />
-        <item index="3" class="java.lang.String" itemvalue="Python.overloading" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_pytest1.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_pytest2.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_pyunit2.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_pyunit.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sample_pyunit1" />
       </list>
     </recent_temporary>
   </component>
@@ -491,50 +496,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_example_pytest_py - 2018.06.08 at 09h 36m 44s.xml">
-      <configuration name="Unittests in example_pytest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test2_py - 2018.06.08 at 09h 22m 55s.xml">
-      <configuration name="Unittests in test2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2018.06.08 at 09h 23m 50s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2018.06.08 at 09h 23m 57s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2018.06.08 at 09h 24m 30s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2018.06.08 at 09h 24m 39s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2018.06.08 at 09h 36m 39s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_py - 2018.06.08 at 12h 19m 32s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_unit_test_py - 2018.06.08 at 09h 38m 27s.xml">
-      <configuration name="Unittests in unit_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_pytest1_py - 2018.06.11 at 10h 05m 50s.xml">
+      <configuration name="Unittests in test_pytest1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pytest2_py - 2018.06.11 at 10h 03m 54s.xml">
+      <configuration name="Unittests in test_pytest2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pyunit2_py - 2018.06.11 at 09h 56m 32s.xml">
+      <configuration name="Unittests in test_pyunit2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pyunit_py - 2018.06.11 at 09h 50m 11s.xml">
+      <configuration name="Unittests in test_pyunit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pyunit_py - 2018.06.11 at 09h 50m 44s.xml">
+      <configuration name="Unittests in test_pyunit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pyunit_py - 2018.06.11 at 09h 53m 01s.xml">
+      <configuration name="Unittests in test_pyunit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pyunit_py - 2018.06.11 at 09h 53m 39s.xml">
+      <configuration name="Unittests in test_pyunit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_pyunit_py - 2018.06.11 at 09h 56m 25s.xml">
+      <configuration name="Unittests in test_pyunit.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_unit_test_py - 2018.06.08 at 12h 19m 18s.xml">
       <configuration name="Unittests in unit_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="174" y="58" width="1475" height="987" extended-state="1" />
+    <frame x="452" y="35" width="1475" height="1012" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17391305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26140156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33790267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29374337" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -578,96 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pylint_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var_global">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/varlocal_global2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#17#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recursion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_init2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../IntegrationTests/employee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../IntegrationTests/frommymodule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../IntegrationTests/public.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -736,48 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TEST/test_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TEST/test_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TEST/sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TEST/test_basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TEST/coverage_cmds">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -910,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../OOP/overloading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../OOP/overriding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -986,6 +851,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OOP/overloading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_pyunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_pyunit1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding>
+            <element signature="e#19#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_pytest2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_pytest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#204#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/sample_pytest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/sample_pytest2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/sample_pyunit1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_pyunit2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#19#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/test_pytest3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/sample_pyunit2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/sample_pytest3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TEST/coverage_cmds">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding />
         </state>
       </provider>
