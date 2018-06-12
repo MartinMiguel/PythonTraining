@@ -1,38 +1,25 @@
-coverage run unit_test.py
-coverage report -m
-coverage html
-
-Multiple files:
-$ coverage run -p tests/my_python_tests.py
-$ coverage run -p tests/my_trial_tests.py
-$ coverage combine
-$ coverage html -d tests/coverage_html  --include=./*py --omit='lib/*.py,tests/*.py'
-
-coverage run -p unit_test.py
-coverage run -p unit_test2.py
-coverage combine
-coverage report .-m
-coverage html
+Coverage.py measures code coverage, typically during test execution. It uses the code analysis
+tools and tracing hooks provided in the Python standard library to determine which lines are executable,
+and which have been executed.
 
 https://stackoverflow.com/questions/36517137/how-to-properly-use-coverage-py-in-python
 
-Using py test
-
-Coverage looks for a .coverage file to read and generate that report for you. Py.test on its own does not create one. You need py.test plugin for coverage:
-
-pip install pytest-cov
-If you already have it, then you can run both at once like this:
-
-py.test test.py --cov=sample.py
-Which means run test module test.py and record/display coverage report on sample.py.
-
-Run all tests
+Runs all:
 py.test --cov
-py.test --cov --cov-report html
+coverage htm
 
-Difference between pyunit and pytest:
-https://bytes.com/topic/python/answers/43330-unittest-vs-py-test
+With no unit tests:
+coverage run test_pytest1.py
+coverage combine
+coverage report -m
+coverage html
+
 
 ##########################
-py test running
+Py.test on its own does not create one. You need py.test plugin for coverage:
+
+https://bytes.com/topic/python/answers/43330-unittest-vs-py-test
+
+py test:
+py.test -s test_pytest1.py
 py.test -v test_pytest1.py  (with verbose)

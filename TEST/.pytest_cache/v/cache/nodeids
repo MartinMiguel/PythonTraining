@@ -1,5 +1,12 @@
 [
   "test_pytest1.py::test_sum",
   "test_pytest1.py::test_sum_positive_ok",
-  "test_pytest1.py::test_sum_positive_fail"
+  "test_pytest1.py::test_sum_positive_fail",
+  "test_pytest2.py::test_answer",
+  "test_pytest3.py::test_numbers_3_4",
+  "test_pytest3.py::test_strings_a_3",
+  "test_pyunit1.py::MyTest::test1",
+  "test_pyunit1.py::MyTest::test2",
+  "test_pyunit1.py::MyTest::test3",
+  "test_pyunit2.py::TestUM::test_numbers_3_4"
 ]

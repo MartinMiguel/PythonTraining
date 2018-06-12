@@ -1,8 +1,3 @@
 def multiply(a, b):
-    """
-    >>> multiply(4, 3)
-    12
-    >>> multiply('a', 3)
-    'aaa'
-    """
+    print("Multiply 1 numbers")
     return a * b
