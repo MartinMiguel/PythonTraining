@@ -36,3 +36,4 @@ def test_sum_positive_ok():
 def test_sum_positive_fail():
     print("Verifying -1+2==None")
     assert sum_only_positive(-1, 2) is None
+

@@ -1,5 +1,7 @@
 {
   "test_pytest1.py::test_sum_positive_ok": true,
   "test_pytest2.py::test_answer": true,
-  "test_pyunit1.py::MyTest::test2": true
+  "test_pyunit1.py::MyTest::test2": true,
+  "test_pyunit1.py::Test_EqualsNT::test_capital_case": true,
+  "test_pyunit2.py::Test_Mult3_4::test_numbers_3_4": true
 }

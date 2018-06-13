@@ -13,8 +13,6 @@ coverage run test_pytest1.py
 coverage combine
 coverage report -m
 coverage html
-
-
 ##########################
 Py.test on its own does not create one. You need py.test plugin for coverage:
 
@@ -23,3 +21,16 @@ https://bytes.com/topic/python/answers/43330-unittest-vs-py-test
 py test:
 py.test -s test_pytest1.py
 py.test -v test_pytest1.py  (with verbose)
+##########################
+Convention
+Name my test modules/files starting with ‘test_’.
+Name my test functions starting with ‘test_’.
+Name my test classes starting with ‘Test’.
+Name my test methods starting with ‘test_’.
+Make sure all packages with test code have an ‘init.py’ file.
+##########################
+pyunit
+discovery mode:
+python -m unittest discover -v
+run by class:
+python -m unittest -q test_pyunit1.Test_EqualsNT

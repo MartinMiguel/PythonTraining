@@ -6,6 +6,6 @@ def setup_module(module):
 def teardown_module(module):
     print("teardown_module closing!!! module:%s" % module.__name__)
 
-def test_answer():
+def test_equivalence():
     print("Test answer 2 ==5?")
     assert inc(3) == 5
