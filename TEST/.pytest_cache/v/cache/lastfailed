@@ -1,6 +1,12 @@
 {
   "test_pytest1.py::test_sum_positive_ok": true,
   "test_pytest2.py::test_answer": true,
+  "test_pytest5.py::test_2_that_does_not[1]": true,
+  "test_pytest5.py::test_2_that_does_not[2]": true,
+  "test_pytest5.py::test_2_that_does_not[3]": true,
+  "test_pytest6.py": true,
+  "test_pytest6.py::test_1": true,
+  "test_pytest6.py::test_2": true,
   "test_pyunit1.py::MyTest::test2": true,
   "test_pyunit1.py::Test_EqualsNT::test_capital_case": true,
   "test_pyunit2.py::Test_Mult3_4::test_numbers_3_4": true
