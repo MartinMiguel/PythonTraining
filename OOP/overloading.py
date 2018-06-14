@@ -39,3 +39,52 @@ class Point:
 p1 = Point(2, 3)
 p2 = Point(-1, 2)
 print(p1 + p2)
+
+#Overloading in a python way
+#https://stackoverflow.com/questions/3394835/args-and-kwargs
+
+#Writing *args and **kwargs is just a convention.
+#*args is used to send a non-keyworded variable length argument list to the function.
+#*args = list of arguments - as positional arguments
+#You would use *args when you're not sure how many arguments might be passed to your function,
+#i.e. it allows you pass an arbitrary number of arguments to your function. For example:
+
+def print_everything(*args):
+    for count, thing in enumerate(args):
+        print('{0}. {1}'.format(count, thing))
+
+print_everything('apple', 'banana', 'cabbage')
+
+#**kwargs allows you to pass keyworded variable length of arguments to a function.
+#You should use **kwargs if you want to handle named arguments in a function.
+#**kwargs = dictionary - whose keys become separate keyword arguments and the values
+#become values of these arguments.
+#Similarly, **kwargs allows you to handle named arguments that you have not defined in advance:
+
+def table_things(**kwargs):
+    for name, value in kwargs.items():
+        print( '{0} = {1}'.format(name, value))
+
+table_things(apple = 'fruit', cabbage = 'vegetable')
+
+#You can use these along with named arguments too. The explicit arguments get values first
+#and then everything else is passed to *args and **kwargs. The named arguments come first
+#in the list. For example:
+def add(instanceOf, *args):
+    if instanceOf == 'int':
+        result = 0
+    if instanceOf == 'str':
+        result = ''
+    for i in args:
+        result = result + i
+    return result
+
+print(add('int', 3, 4, 5))
+print(add('str', 'I', ' am', ' in', ' Python'))
+
+#You can also use the * and ** syntax when calling a function. For example:
+def print_three_things(a, b, c):
+    print( 'a = {0}, b = {1}, c = {2}'.format(a,b,c))
+
+mylist = ['aardvark', 'baboon', 'cat']
+print_three_things(*mylist)
