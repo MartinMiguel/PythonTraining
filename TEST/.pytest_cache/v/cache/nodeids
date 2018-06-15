@@ -1,11 +1,4 @@
 [
-  "test_pytest5.py::test_1_that_needs_resource_a[1]",
-  "test_pytest5.py::test_1_that_needs_resource_a[2]",
-  "test_pytest5.py::test_1_that_needs_resource_a[3]",
-  "test_pytest5.py::test_2_that_does_not[1]",
-  "test_pytest5.py::test_2_that_does_not[2]",
-  "test_pytest5.py::test_2_that_does_not[3]",
-  "test_pytest5.py::test_3_that_does[1]",
-  "test_pytest5.py::test_3_that_does[2]",
-  "test_pytest5.py::test_3_that_does[3]"
+  "test_pytest3.py::test_numbers_3_4",
+  "test_pytest3.py::test_strings_a_3"
 ]

@@ -1,6 +1,5 @@
-
-#Several ways to call a method (method overloading)
-#Depending on the function definition, it can be called with zero, one, two or more parameters.
+#Overloading with function decorators, Ideal when you need to extend the
+#functionality of functions that you don't want to modify
 
 class Human:
 
@@ -54,6 +53,14 @@ def print_everything(*args):
         print('{0}. {1}'.format(count, thing))
 
 print_everything('apple', 'banana', 'cabbage')
+print_everything('apple-orange', 'banana')
+
+def test_var_args(f_arg, *argv):
+    print("first normal arg:", f_arg)
+    for arg in argv:
+        print("another arg through *argv:", arg)
+
+test_var_args('yasoob', 'python', 'eggs', 'test')
 
 #**kwargs allows you to pass keyworded variable length of arguments to a function.
 #You should use **kwargs if you want to handle named arguments in a function.
@@ -66,6 +73,7 @@ def table_things(**kwargs):
         print( '{0} = {1}'.format(name, value))
 
 table_things(apple = 'fruit', cabbage = 'vegetable')
+table_things(orange = 'fruit')
 
 #You can use these along with named arguments too. The explicit arguments get values first
 #and then everything else is passed to *args and **kwargs. The named arguments come first
@@ -75,12 +83,15 @@ def add(instanceOf, *args):
         result = 0
     if instanceOf == 'str':
         result = ''
+    if instanceOf == 'doub':
+        result = 'My '
     for i in args:
         result = result + i
     return result
 
 print(add('int', 3, 4, 5))
 print(add('str', 'I', ' am', ' in', ' Python'))
+print(add('doub','kiss'))
 
 #You can also use the * and ** syntax when calling a function. For example:
 def print_three_things(a, b, c):

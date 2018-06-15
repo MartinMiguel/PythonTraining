@@ -6,7 +6,7 @@ https://stackoverflow.com/questions/36517137/how-to-properly-use-coverage-py-in-
 
 Runs all:
 py.test --cov
-coverage htm
+coverage html
 
 With no unit tests:
 coverage run test_pytest1.py

@@ -49,12 +49,14 @@ print("u[0]:", u[0])
 #tuples containing mutable objects list
 list1_1 = [10,11]
 list2_1 = [12,13]
-tupwlist = ("Tuple containing lists: ",list1_1, list2_1)
+tupwlist = (list1_1, list2_1)
+print("Tuple containing lists: ",list1_1, list2_1)
 print("Type:",type(tupwlist))
 print("tuple with lists contained:",tupwlist)
-print("tuple with lists contained:",tupwlist[0])
+print("tuple with lists contained tupwlist[0]:",tupwlist[0])
 #list1_1 is updated but still don't change due to previous assignation
 list1_1 = [20,21]
+#Redefinition of tupwlist to change, otherwise can't chance
 tupwlist = (list1_1, list2_1, list1)
 print("tuple with lists contained and updated:",tupwlist)
 del(list1_1)
@@ -62,6 +64,6 @@ print("tuple with lists contained and updated with list del, not affecting:",tup
 tupwlist = (list2_1, list1)
 print("tuple with lists contained and updated with list redefinition, not affecting:",tupwlist)
 print("Type:",type(tupwlist))
-tupwlist = (list1_1,list2_1)
+#tupwlist = (list1_1,list2_1)
 print("tuple with lists contained:",tupwlist)
 print("Type:",type(tupwlist))
