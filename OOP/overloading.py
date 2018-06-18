@@ -1,24 +1,21 @@
 #Overloading with function decorators, Ideal when you need to extend the
 #functionality of functions that you don't want to modify
+#Best to use args o kwargs when you don't know how many arguments are you
+#going to pass
 
+#Example 1
 class Human:
-
     def sayHello(self, name=None):
-
         if name is not None:
             print('Hello ' + name)
         else:
             print('Hello ')
 
-# Create instance
-obj = Human()
-
-# Call the method
-obj.sayHello()
-
-# Call the method with a parameter
+obj = Human()           #create a instance
+obj.sayHello()          #call instance method
 obj.sayHello('Guido')
-
+##################################################
+#Example 2
 #Python has overloading special functions as _add_  Internally: p1.__add__(p2)
 #https://www.programiz.com/python-programming/operator-overloading
 
@@ -38,7 +35,8 @@ class Point:
 p1 = Point(2, 3)
 p2 = Point(-1, 2)
 print(p1 + p2)
-
+##################################################
+#Example 3
 #Overloading in a python way
 #https://stackoverflow.com/questions/3394835/args-and-kwargs
 
@@ -52,8 +50,8 @@ def print_everything(*args):
     for count, thing in enumerate(args):
         print('{0}. {1}'.format(count, thing))
 
-print_everything('apple', 'banana', 'cabbage')
-print_everything('apple-orange', 'banana')
+print_everything('s1', 's2', 's3')
+print_everything('s4', 's5')
 
 def test_var_args(f_arg, *argv):
     print("first normal arg:", f_arg)
@@ -62,19 +60,40 @@ def test_var_args(f_arg, *argv):
 
 test_var_args('yasoob', 'python', 'eggs', 'test')
 
+#Example 4
+
+class args_example:
+
+    def print_everything1(*args):
+      for count, thing in enumerate(args):
+          print('{0}. {1}'.format(count, thing))
+
+    print_everything1('apple', 'banana', 'cabbage')
+    print_everything1('apple-orange', 'banana')
+
+    def test_var_args2(f_arg, *argv):
+        for arg in argv:
+           print("another arg through *argv:", arg)
+
+Ex1 = args_example()
+Ex1.test_var_args2('nice1', 'nice2', 'nice3', 'nice4')
+##################################################
+#Example 5
 #**kwargs allows you to pass keyworded variable length of arguments to a function.
 #You should use **kwargs if you want to handle named arguments in a function.
 #**kwargs = dictionary - whose keys become separate keyword arguments and the values
 #become values of these arguments.
 #Similarly, **kwargs allows you to handle named arguments that you have not defined in advance:
 
-def table_things(**kwargs):
-    for name, value in kwargs.items():
-        print( '{0} = {1}'.format(name, value))
+class kwargs_example:
+    def table_things(**kwargs):
+        for name, value in kwargs.items():
+           print( '{0} = {1}'.format(name, value))
 
-table_things(apple = 'fruit', cabbage = 'vegetable')
-table_things(orange = 'fruit')
-
+kwargs_example.table_things(apple = 'fruit', cabbage = 'vegetable')
+kwargs_example.table_things(orange = 'fruit')
+##################################################
+#Example 6
 #You can use these along with named arguments too. The explicit arguments get values first
 #and then everything else is passed to *args and **kwargs. The named arguments come first
 #in the list. For example:
@@ -92,7 +111,8 @@ def add(instanceOf, *args):
 print(add('int', 3, 4, 5))
 print(add('str', 'I', ' am', ' in', ' Python'))
 print(add('doub','kiss'))
-
+##################################################
+#Example 7
 #You can also use the * and ** syntax when calling a function. For example:
 def print_three_things(a, b, c):
     print( 'a = {0}, b = {1}, c = {2}'.format(a,b,c))

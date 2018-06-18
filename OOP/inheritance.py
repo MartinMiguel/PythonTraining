@@ -1,7 +1,8 @@
 class Parent:        # define parent class
    parentAttr = 100
    def __init__(self):
-      print ("Calling parent constructor")
+      self.a = 1
+      print ("Calling parent constructor, a value:", self.a)
 
    def parentMethod(self):
       print ('Calling parent method')
@@ -15,9 +16,10 @@ class Parent:        # define parent class
    def myMethod(self):
       print('Calling parent method')
 
-class Child(Parent): # define child class
-   def __init__(self):
-      print ("Calling child constructor")
+class Child(Parent):    #define child class
+   def __init__(self):  #overriding
+      self.a = 2
+      print ("Calling child constructor, a value:", self.a)
 
    def childMethod(self):
       print ('Calling child method')
@@ -30,7 +32,7 @@ class Child(Parent): # define child class
 c = Child()          # instance of child
 c.childMethod()      # child calls its method
 c.parentMethod()     # calls parent's method
+c.getAttr()          # again call parent's method
 c.setAttr(200)       # again call parent's method
 c.getAttr()          # again call parent's method
-
 c.myMethod()         # child calls overridden method

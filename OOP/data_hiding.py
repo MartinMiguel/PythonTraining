@@ -1,9 +1,9 @@
 #Data Hiding
 #You need to name attributes with a double underscore prefix, and those attributes
-# then are not be directly visible to outsiders.
+#then are not be directly visible to outsiders.
 
 class JustCounter:
-    __secretCount = 0
+    __secretCount = 10
 
     def count(self):
         self.__secretCount += 1
