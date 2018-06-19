@@ -4,7 +4,7 @@
 # Python's lambda keyword: unnecessary, occasionally useful.
 
 myfunc = lambda i: i*2
-print(myfunc(2))
+print("Pass arg:",myfunc(2))
 
 myfunc = lambda x,y: x*y
 print(myfunc(3,6))

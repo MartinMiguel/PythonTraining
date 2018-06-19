@@ -28,7 +28,6 @@ for i in range(3):
 ###########
 #Determining the Current Thread
 import logging
-import threading
 import time
 
 logging.basicConfig(level=logging.DEBUG,
