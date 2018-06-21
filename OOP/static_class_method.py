@@ -1,3 +1,8 @@
+#Class and static methods are decorators
+#classmethod must have a reference to a class object as the first parameter
+#staticmethod can have no parameters at all.
+
+#1.-classmethod decorator
 class Robot:
     """Represents a robot, with a name."""
 
@@ -52,3 +57,6 @@ droid1.die()
 droid2.die()
 
 Robot.how_many()
+
+##################################################################
+

@@ -14,6 +14,15 @@ class Human:
 obj = Human()           #create a instance
 obj.sayHello()          #call instance method
 obj.sayHello('Guido')
+
+#Example 1.2
+def func(a, b=5, c=10):
+    print('a is', a, 'and b is', b, 'and c is', c)
+
+func(3, 7)
+func(25, c=24)
+func(c=50, a=100)
+
 ##################################################
 #Example 2
 #Python has overloading special functions as _add_  Internally: p1.__add__(p2)
@@ -119,3 +128,18 @@ def print_three_things(a, b, c):
 
 mylist = ['aardvark', 'baboon', 'cat']
 print_three_things(*mylist)
+##################################################
+#Example 8
+#Combination of args and kwargs
+def total(a=5, *numbers, **phonebook):
+    print('a', a)
+
+    #iterate through all the items in tuple
+    for single_item in numbers:
+        print('single_item', single_item)
+
+    #iterate through all the items in dictionary
+    for first_part, second_part in phonebook.items():
+        print(first_part,second_part)
+
+print(total(10,1,2,3,Jack=1123,John=2231,Inge=1560))
