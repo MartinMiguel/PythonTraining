@@ -37,6 +37,7 @@ class Robot:
         print("Greetings, my masters call me {}.".format(self.name))
 
     @classmethod
+    # equivalent to Robot.population
     def how_many(cls):
         """Prints the current population."""
         print("We have {:d} robots.".format(cls.population))
@@ -60,3 +61,24 @@ Robot.how_many()
 
 ##################################################################
 
+from datetime import date
+
+# random Person
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    @classmethod
+    def fromBirthYear(cls, name, birthYear):
+        #equivalent to Person(name, date.today().year - birthYear)
+        return cls(name, date.today().year - birthYear)
+
+    def display(self):
+        print(self.name + "'s age is: " + str(self.age))
+
+person = Person('Adam', 19)
+person.display()
+
+person1 = Person.fromBirthYear('John',  1985)
+person1.display()

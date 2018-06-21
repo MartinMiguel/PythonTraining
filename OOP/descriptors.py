@@ -35,36 +35,3 @@ if __name__ == '__main__':
     print(c.desc)
 
 # Example 2
-from weakref import WeakKeyDictionary
-
-class Drinker:
-    def __init__(self):
-        self.req_age = 21
-        self.age = WeakKeyDictionary()
-
-    def __get__(self, instance_obj, objtype):
-        return self.age.get(instance_obj, self.req_age)
-
-    def __set__(self, instance, new_age):
-        if new_age < 21:
-            msg = '{name1} is too young to legally imbibe'
-            print(msg.format(name1=instance.name))
-        else:
-            #self.age[instance] = new_age
-            print('{name_c} can legally drink in the USA {years_c} years'.format(name_c=instance.name, years_c=new_age))
-
-    #def __delete__(self, instance):
-       # del self.age[instance]
-
-
-class Person:
-    drinker_age = Drinker()
-
-    def __init__(self, name2, age):
-        self.name = name2
-        self.drinker_age = age
-
-
-p = Person('Miguel', 30)
-p = Person('Niki', 13)
-print(p.drinker_age)
