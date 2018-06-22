@@ -31,3 +31,5 @@ p1.myfunc()
 print("My age is:", p1.age)
 p1.age = 40
 print("My age is now:", p1.age)
+#########################################
+#Example 4
