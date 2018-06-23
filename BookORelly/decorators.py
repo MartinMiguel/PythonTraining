@@ -39,7 +39,7 @@ def my_function():
 
 
 print(my_function())
-
+###########################################
 #Decorating Methods with overloading(*args)
 def p_decorate(func):
    def func_wrapper(*args):
@@ -59,7 +59,7 @@ class Person(object):
 
 my_person = Person()
 print(my_person.get_fullname())
-
+###########################################
 #Decorating Methods with overloading(*args) and (**kwargs)
 def method_decorator(fn):
     "Example of a method decorator"
