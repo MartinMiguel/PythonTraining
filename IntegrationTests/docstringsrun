@@ -1,0 +1,2 @@
+#https://github.com/Feneric/doxypypy
+doxypypy -a -c file.py > file.py.out

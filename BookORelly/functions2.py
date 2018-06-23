@@ -7,7 +7,7 @@ def greet(name):
 greet_someone = greet
 print (greet_someone("John"))
 
-#Define functions inside other functions
+#Define functions inside other functions (Closures)
 def greet(name):
     def get_message():
         return "Hello "
