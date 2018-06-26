@@ -39,7 +39,7 @@ def my_function():
 
 
 print(my_function())
-<<<<<<< HEAD
+
 ###########################################
 #Decorating Methods with overloading(*args)
 def p_decorate(func):
@@ -87,6 +87,3 @@ if __name__ == "__main__":
     x = MyFirstClass()
     x.first_method()
     x.second_method()
-=======
-
->>>>>>> 67366fc9fee165743c798d114263baee771a1ef9

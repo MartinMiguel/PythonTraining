@@ -1,5 +1,7 @@
 #http://python-textbok.readthedocs.io/en/1.0/Classes.html
 #Hard to see difference between classmethod and setter
+#The @property decorator can be used to implement a getter for your class' instance variable, however you can
+#use also classmethod for this
 
 #The @property decorator lets us make a method behave like an attribute
 
