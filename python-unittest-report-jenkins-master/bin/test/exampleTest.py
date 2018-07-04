@@ -5,10 +5,11 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "./"))
 sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
 sys.path.append(os.path.join(os.path.dirname(__file__), "../../"))
 
-#import xmlrunner
-#import unittest
+import xmlrunner
 import unittest
-import example
+
+from bin import example
+
 
 class exampleTest(unittest.TestCase):
 
