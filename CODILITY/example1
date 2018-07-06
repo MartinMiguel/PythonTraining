@@ -1,0 +1,29 @@
+
+def solution(A):
+    # write your code in Python 3.6
+    B = list(filter((lambda x: x > 0), A))
+    Y = list(set(B))
+    #print(Y)
+    if len(Y) == 0:
+        return 1
+        #print("One: ", C)
+    else:
+        # for i in range(len(Y)):
+        for i in range(100000):
+            if (i in Y) | (i == 0):
+                continue
+            else:
+                #print("Num:", i)
+                return i
+                break
+
+                # if Y[i]+1 == Y[i+1]:
+                # continue
+                # else:
+                #   print("Big num:", Y[i]+1)
+                #  break
+
+    pass
+
+D = [-1,-3,1,2,10,3,4,6,5,1000]
+print("Solution",solution(D))
