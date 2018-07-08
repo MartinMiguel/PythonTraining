@@ -1,9 +1,9 @@
 def solution(N, S, T):
     #write your code in Python 3.6
     #Print Received N,S,T
-    print("Table:",N)
-    print("[S] Corner ship points:",S)
-    print("[T] Hits:",T)
+    #print("Table:",N)
+    #print("[S] Corner ship points:",S)
+    #print("[T] Hits:",T)
 
     #Dictionary to Map Columns
     ColsMap = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7, 'H': 8,
@@ -34,8 +34,8 @@ def solution(N, S, T):
                 Space = j
         return XColsNum, XRowsNum
     SColsNum, SRowsNum = ColsRowSeparation(S)
-    print("S Columns", SColsNum)
-    print("S Rows", SRowsNum)
+    #print("S Columns", SColsNum)
+    #print("S Rows", SRowsNum)
 
     # Building Ships
     x = 0
@@ -44,19 +44,19 @@ def solution(N, S, T):
         OneShip = ""
         for i in range(SRowsNum[x], SRowsNum[x + 1] + 1):
             for j in range(SColsNum[x], SColsNum[x + 1] + 1):
-                print("Area:",i,j)
+                #print(i,j)
                 OneShip = OneShip + str(i) + MapCols[j]
         ShipsMatrix.append(OneShip)
         x = x + 2
     #Removing Ships repeated
     ShipsNoRpt=set(ShipsMatrix)
     ShipsList = list(ShipsNoRpt)
-    print("Ships filled:", ShipsList)
+    #print("Ships filled:", ShipsList)
 
     #Build T Hits Colums and Rows to remove spaces
     TColsNum, TRowsNum = ColsRowSeparation(T)
-    print("T Columns", TColsNum)
-    print("T Rows", TRowsNum)
+    #print("T Columns", TColsNum)
+    #print("T Rows", TRowsNum)
     THits=[]
     #Map again T Colums to Letters
     TCols = []
@@ -67,14 +67,14 @@ def solution(N, S, T):
     #Removing Hits repeated
     THitsNoRpt=set(THits)
     THitsList = list(THitsNoRpt)
-    print("Hits Matrix Num:",THitsList)
+    #print("Hits Matrix Num:",THitsList)
 
     #Create a list with number of elements of each ship
     ShipsNElmntsBase = []
     for i in range(len(ShipsList)):
         ShipsNElmntsBase.append(len(ShipsList[i]))
     ShipsNElmntsBaseFixed=tuple(ShipsNElmntsBase)
-    print("Num Elements of Chars of Each Ship:",ShipsNElmntsBaseFixed)
+    #print("Num Elements of Chars of Each Ship:",ShipsNElmntsBaseFixed)
 
     #Rest hits characters to each ship
     ShipsNElmntsComp=list(ShipsNElmntsBaseFixed)
@@ -82,63 +82,47 @@ def solution(N, S, T):
         x=0
         for j in ShipsList:
             if i in j:
-                print("Hits identified:",i+"->"+j)
+                #print("Hits identified:",i+"->"+j)
                 ShipsNElmntsComp[x]=ShipsNElmntsComp[x]-len(i)
             x+=1
-    print("Hits Chars after Restart",ShipsNElmntsComp)
+    #print("Hits Chars after Restart",ShipsNElmntsComp)
 
     #O means ships sunk
     ShipsSunk=sum(p == 0 for p in ShipsNElmntsComp)
-    print("Ships Sunk:",ShipsSunk)
+    #print("Ships Sunk:",ShipsSunk)
 
     #Ships hit but no sunk
-    ShipsHitButNoSunk = 0-ShipsSunk
+    ShipsHitButNotSunk = 0-ShipsSunk
     for i in range(len(ShipsNElmntsBase)):
         if ShipsNElmntsComp[i] != ShipsNElmntsBase[i]:
-            ShipsHitButNoSunk += 1
-    print("Ships Hit But No Sunk:", ShipsHitButNoSunk)
-    return ShipsSunk, ShipsHitButNoSunk
+            ShipsHitButNotSunk += 1
+    #print("Ships Hit But No Sunk:", ShipsHitButNoSunk)
+    return ShipsSunk, ShipsHitButNotSunk
+    pass
 
-    #for i in range(len(ShipsList)):
-    #    if THitsList[1] in ShipsList[i]:
-    #        print(THitsList[1])
-    #        print(ShipsList[i])
+N=26
+T = "2B 2D 3D 4A"
+S = "1B 12C, 2D 12D, 6G 17R"
+#ShipsSunk, ShipsHitButNotSunk (0, 2)
 
-    #ShipsNElmnts = []
-    #for i in range(len(ShipsList)):
-    #    if ColsMap.keys() in ShipsList[i]:
-    #     ShipsNElmnts.append(len(ShipsList[i]))
-    #print(ShipsNElmnts)
+#N=10
+#T = "3A 7C 2E 4D 8C "
+#S = "1A 2B, 5D 7D"
+#ShipsSunk, ShipsHitButNotSunk (0, 0)
 
-    #Start filing a ship-hits matrix
-    #for i in THitsList:
-    #    for j in ShipsList:
-    #        if i in j:
+#N=10
+#T = "1A 2A 2B 4D 1B "
+#S = "1A 2B, 5D 7D"
+#ShipsSunk, ShipsHitButNotSunk (1, 0)
 
-
-    #Start Hits Ships comparison
-    #for k in THits:
-    #if THits[3] in ShipsMatrix[1]:
-        #print(THits[3])
-    #if THits[3] in ShipsMatrix[1]:
-        #ShipsMatrix.index[THits[3]]="XX"
-    #print(ShipsMatrix[1][0])
-    #print(len(ShipsMatrix[0]))
-    #lst = ['a', 'ab', 'abc', 'bac']
-    #res = [k for k in lst if 'ab' in k]
-    #NewS=[]
-    #for i in range(len(ShipsMatrix)):
-    #    NewS.a
-    #res = [k for k in ShipsMatrix if THits[0] in k]
-    #print(res)
-    #print(THits[0])
-
-N = 4
-S = "1B 2C, 2D 4D"
-T = "2B 2D 3D 4D 4A"
+#N = 4
+#S = "1B 2C, 2D 4D"
+#T = "2B 2D 3D 4D 4A"
+#ShipsSunk, ShipsHitButNotSunk (1, 1)
 
 #N = 12
 #S = "1B 2C, 2D 4D, 10J 11K, 9C 11C, 1V 2W, 1B 2C "
 #T = "  2B 2D 3D 4D 4A 11K 4C 12B 2B"
 #ShipsSunk, ShipsHitButNotSunk (1, 2)
+
 print("ShipsSunk, ShipsHitButNotSunk",solution(N,S,T))

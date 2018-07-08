@@ -59,7 +59,7 @@ def solution(N, S, T):
         #print(i)
         #print("Hits filled:", Table)
     #Table[1][2] = 2
-    print("Hits filled:", Table)
+    print("Hits filled with 2 number:", Table)
     pass
 
 N = 4
